@@ -1,0 +1,30 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "bu_bridge",
+      "name": "BU \u2014 Blender to Unreal Bridge",
+      "tagline": "Animated USD to Unreal with texture filtering and camera cuts",
+      "version": "0.1.0+20261024.012254",
+      "type": "add-on",
+      "maintainer": "AnimVoxel <craftless@animvoxel.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "5.0.0",
+      "permissions": {
+        "files": "Write USD exports, and keep BU's own small Unreal project",
+        "network": "Start and talk to an Unreal Editor on this machine"
+      },
+      "tags": [
+        "Import-Export",
+        "Pipeline"
+      ],
+      "archive_url": "./bu_bridge-20261024.012254.zip",
+      "archive_size": 887486,
+      "archive_hash": "sha256:350801685c82a446796fb8725fcd25331f23bbeb22bc1b19039a667fc39f81b2"
+    }
+  ]
+}
